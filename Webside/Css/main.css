@@ -1,0 +1,80 @@
+body{
+    background-image: url(../Img/jen-p-FoG8lotg7AA-unsplash.jpg);
+    background-size: cover;
+    font-weight: 750;
+    font-family: 'Oswald', sans-serif;
+    max-width: 1200px;
+    margin:auto
+}
+#dcEB{
+    max-width: 300px;
+}
+h2{
+    padding-top: 15px;
+}
+h1{
+    font-size: 50px;
+    word-spacing: 2px;
+    font-family: 'Redressed', cursive;
+    margin-bottom: 50px;
+}
+nav{
+    padding-top: 20px;
+    float: right;
+    padding: none;
+}
+header{
+    text-decoration: underline;
+}
+body p {
+    padding: 10px;
+    margin: 20px;
+    background-color:rgba(77, 74, 74, 0.295);
+    word-spacing: 3px;
+    margin-top: 5px;
+    width: 700px;
+}
+a:hover{
+    color: rgb(143, 136, 136);
+}
+body a{
+    border: solid black 1px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+img{ 
+    margin-top: 10px;
+    border: 3px solid black;
+    border-radius: 10%;
+    max-width: 200px;
+}
+p {
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+    float: right;
+    width: 600px;
+}
+.indEB img{
+    margin-top: 50px;
+}
+.magicEB{
+    padding-top: 100px;
+}.delEB img {
+    height: auto;
+}   
+@media only screen and (min-width:390px) {
+    a{
+    font-size: 15px;
+}
+p{  
+    margin: none;
+    float: right; 
+    width: 500px;  
+}
+
+img{
+    max-width: 150px;
+}
+    
+}
